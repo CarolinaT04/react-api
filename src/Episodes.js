@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import Characters from './componets/charactersItem'
 import NavigationBar from './navigation';
+import Episodes from './componets/espisodes';
 
-function App () {
+function Episodes () {
 
   return (
-<div className="App">
+<div className="Episodes">
       <NavigationBar />
-      <Characters/>
+      <Episodes/>
       
 </div>
 
     );
   }
 
-export default App;
-
+export default Episodes;
